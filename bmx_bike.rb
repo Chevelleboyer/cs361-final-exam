@@ -34,7 +34,7 @@ class BmxBike
   end
 
   def rent
-    return @daily_rate
+    return @daily_rate + @tail_pack.price
   end
 
 end
