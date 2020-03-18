@@ -17,4 +17,9 @@ bikes = [
 
 rent = Rent.new
 
+total_price = 0
+bikes.each do |bike|
+ total_price += rent.rent(bike, 7)
+end
+
 puts "Total price: #{total_price}"
