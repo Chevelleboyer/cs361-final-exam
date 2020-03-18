@@ -35,5 +35,6 @@ class BmxBike
 
   def rent
     return @daily_rate
+  end
 
 end
