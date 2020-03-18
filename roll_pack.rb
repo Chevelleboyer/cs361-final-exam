@@ -1,10 +1,11 @@
 class RollPack
-  # Set price
+
   def initialize
-  @price = 1 # Flat rate per rental
+  @price = 1
   end
-  # Get price
+
   def price
-  @price # Price set in initializer
+  @price
   end
+  
 end
