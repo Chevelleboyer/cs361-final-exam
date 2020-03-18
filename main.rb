@@ -15,4 +15,6 @@ bikes = [
   MountainBike.new
 ]
 
+rent = Rent.new
+
 puts "Total price: #{total_price}"
