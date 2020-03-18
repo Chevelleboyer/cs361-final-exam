@@ -33,8 +33,9 @@ class MountainBike
     @hourly_rate
   end
 
-  def rent
-    return @daily_rate + @luggage.price
+  def rent(num_of_days)
+    cost = @daily_rate * num_of_days
+    return cost + @luggage.price
   end
 
 end

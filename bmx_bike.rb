@@ -33,8 +33,9 @@ class BmxBike
     @hourly_rate
   end
 
-  def rent
-    return @daily_rate + @tail_pack.price
+  def rent(num_of_days)
+    cost = @daily_rate * num_of_days
+    return cost + @tail_pack.price
   end
 
 end

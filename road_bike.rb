@@ -24,8 +24,8 @@ class RoadBike
     @daily_rate
   end
 
-  def rent
-    cost = @daily_rate
+  def rent(num_of_days)
+    cost = @daily_rate * num_of_days
     @panniers.each do |pannier|
       cost += pannier.price
     end
