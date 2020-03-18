@@ -34,7 +34,7 @@ class MountainBike
   end
 
   def rent
-    return @daily_rate
+    return @daily_rate + @luggage.price
   end
 
 end
