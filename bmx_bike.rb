@@ -4,9 +4,9 @@ class BmxBike
 
   def initialize
     @tail_pack = TailPack.new
-    @weekly_price = 70
-    @daily_price = 20
-    @hourly_price = 5
+    @weekly_rate = 70
+    @daily_rate = 20
+    @hourly_rate = 5
   end
 
   def clean
@@ -22,18 +22,18 @@ class BmxBike
   end
 
   def weekly_rate
-    @weekly_price
+    @weekly_rate
   end
 
   def daily_rate
-    @daily_price
+    @daily_rate
   end
 
   def hourly_rate
-    @hourly_price
+    @hourly_rate
   end
 
   def rent
-    return @daily_price
+    return @daily_rate
 
 end
