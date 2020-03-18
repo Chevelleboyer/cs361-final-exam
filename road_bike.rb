@@ -24,4 +24,7 @@ class RoadBike
     @daily_rate
   end
 
+  def rent
+    return @daily_rate
+
 end

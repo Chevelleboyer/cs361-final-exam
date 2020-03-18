@@ -33,4 +33,7 @@ class BmxBike
     @hourly_price
   end
 
+  def rent
+    return @daily_price
+
 end

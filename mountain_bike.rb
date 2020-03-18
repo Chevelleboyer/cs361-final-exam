@@ -33,4 +33,8 @@ class MountainBike
     @hourly_rate
   end
 
+  def rent
+    return @daily_rate
+  end
+
 end
